@@ -1,0 +1,91 @@
+/* body {
+  background-image: url(../images/neneCollectionz.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+} */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 4 columns */
+  gap: 20px; /* Gap between cards */
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(99, 19, 62, 0.486);
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+.price {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(99, 19, 62);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+.button {
+  border: transparent;
+  background-color: transparent;
+  color: rgba(99, 19, 62);
+  font-weight: bold;
+}
+.button:hover {
+  text-decoration: underline;
+}
+/* */
+@media only screen and (max-width: 768px) {
+  /* CSS rules for phones and smaller devices */
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*
+  .card {
+   
+  }
+
+  .card-content {
+    
+  }
+
+  .card-content h2 {
+    
+  }
+
+  .card-content p {
+  
+  } 
+  */
+}

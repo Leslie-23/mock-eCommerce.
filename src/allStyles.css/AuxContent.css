@@ -1,0 +1,46 @@
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px; 
+ 
+  } */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr); /* 4 columns */
+  gap: 15px; /* Gap between images */
+  padding: 15px;
+}
+
+.image-placeholder {
+  text-align: center;
+}
+
+.rounded-image {
+  border-radius: 10px; /* Border radius for rounded corners */
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.bannerHeader {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  text-align: center;
+}
+.inTxt {
+  color: rgb(127, 19, 76);
+  font-size: 2rem;
+}
+.prime {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+}
+a:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}

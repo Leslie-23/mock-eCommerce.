@@ -1,0 +1,8 @@
+.cartButton {
+  background-color: transparent;
+  border-color: transparent;
+}
+.cartButton:hover {
+  transition: 0.7s ease-in-out;
+  transform: scale(1.8);
+}
